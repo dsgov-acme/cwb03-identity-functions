@@ -8,7 +8,7 @@ data "terraform_remote_state" "bootstrap" {
   backend = "gcs"
 
   config = {
-    bucket = "cwb03-tfstate"
+    bucket = "cwb03-383e-tfstate"
     prefix = "bootstrap"
   }
 }
